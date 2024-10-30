@@ -1,0 +1,485 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jmvstream\n"
+"POT-Creation-Date: 2023-03-23 10:30-0300\n"
+"PO-Revision-Date: 2023-03-30 17:00-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: jmvstream.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: src/includes/Jmvstream.php:39 src/includes/Jmvstream.php:142
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:36
+msgid "Jmvstream Videos"
+msgstr "Jmvstream Vídeos"
+
+#: src/includes/Jmvstream.php:40
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:37
+msgid "Title"
+msgstr "Título"
+
+#: src/includes/Jmvstream.php:41
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:38
+msgid "Edit"
+msgstr "Editar"
+
+#: src/includes/Jmvstream.php:42
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:39
+msgid "Description"
+msgstr "Descrição"
+
+#: src/includes/Jmvstream.php:43 src/includes/Jmvstream.php:69
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:40
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:66
+msgid "Gallery"
+msgstr "Galeria"
+
+#: src/includes/Jmvstream.php:44 src/includes/Jmvstream.php:70
+#: src/includes/admin/JmvstreamHubVideosPage.php:54
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:41
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:67
+msgid "Date"
+msgstr "Data"
+
+#: src/includes/Jmvstream.php:45
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:42
+msgid "No videos found"
+msgstr "Nenhum vídeo encontrado"
+
+#: src/includes/Jmvstream.php:46
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:43
+msgid "All Galleries"
+msgstr "Todas Galerias"
+
+#: src/includes/Jmvstream.php:47
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:44
+msgid "All Dates"
+msgstr "Todas as Datas"
+
+#: src/includes/Jmvstream.php:48
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:45
+msgid "of"
+msgstr "de"
+
+#: src/includes/Jmvstream.php:49
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:46
+msgid "Checking videos... Please wait"
+msgstr "Verificando vídeos... Por favor aguarde"
+
+#: src/includes/Jmvstream.php:50
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:47
+msgid "Dismiss this notice"
+msgstr "Dispensar essa notificação"
+
+#: src/includes/Jmvstream.php:51
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:48
+msgid "Uploaded at"
+msgstr "Enviado em"
+
+#: src/includes/Jmvstream.php:52
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:49
+msgid "Updated at"
+msgstr "Atualizado em"
+
+#: src/includes/Jmvstream.php:53
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:50
+msgid "Video Player"
+msgstr "Player do Vídeo"
+
+#: src/includes/Jmvstream.php:54
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:51
+#: src/includes/elementor/widgets/JmvstreamVideoWidget.php:47
+msgid "Video Shortcode"
+msgstr "Shortcode do Vídeo"
+
+#: src/includes/Jmvstream.php:55
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:52
+msgid "Video Duration"
+msgstr "Duração do Vídeo"
+
+#: src/includes/Jmvstream.php:56
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:53
+msgid "Update"
+msgstr "Atualizar"
+
+#: src/includes/Jmvstream.php:57
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:54
+msgid "To embed a video, paste the shortcode or player link below"
+msgstr "Para inserir o vídeo, cole abaixo o shortcode ou link do player"
+
+#: src/includes/Jmvstream.php:58
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:55
+msgid "Error:: Invalid Link ou shortcode"
+msgstr "Erro: Link ou shortcode inválido"
+
+#: src/includes/Jmvstream.php:59
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:56
+msgid "Add Video"
+msgstr "Adicionar Vídeo"
+
+#: src/includes/Jmvstream.php:61 src/includes/admin/JmvstreamHubVideosPage.php:21
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:76
+msgid "Add Videos"
+msgstr "Adicionar Vídeos"
+
+#: src/includes/Jmvstream.php:60
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:57
+msgid "Update Videos"
+msgstr "Atualizar Vídeos"
+
+#: src/includes/Jmvstream.php:61 src/includes/admin/JmvstreamHubVideosPage.php:27
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:58
+msgid "Plan Upgrade"
+msgstr "Upgrade do Plano"
+
+#: src/includes/Jmvstream.php:62 src/includes/admin/JmvstreamHubVideosPage.php:27
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:59
+msgid "https://jmvstream.com/en/video-hosting-platform/#hosting-video-plans-pricing"
+msgstr ""
+"https://jmvstream.com/pt-br/hospedagem-de-videos/#hospedagem-de-videos-planos-e-precos"
+
+#: src/includes/Jmvstream.php:63
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:60
+msgid "Filter Videos"
+msgstr "Filtrar Vídeos"
+
+#: src/includes/Jmvstream.php:64
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:61
+msgid "Filter by Gallery"
+msgstr "Filtrar por Galeria"
+
+#: src/includes/Jmvstream.php:65
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:62
+msgid "Filter by Date"
+msgstr "Filtrar por Data"
+
+#: src/includes/Jmvstream.php:66
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:63
+msgid "Search..."
+msgstr "Pesquisar..."
+
+#: src/includes/Jmvstream.php:67 src/includes/admin/JmvstreamHubVideosPage.php:30
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:64
+msgid "List Videos"
+msgstr "Listar Vídeos"
+
+#: src/includes/Jmvstream.php:68 src/includes/admin/JmvstreamHubVideosPage.php:45
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:65
+msgid "Video"
+msgstr "Vídeo"
+
+#: src/includes/Jmvstream.php:71 src/includes/admin/JmvstreamHubVideosPage.php:84
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:68
+msgid "Current Page"
+msgstr "Página Atual"
+
+#: src/includes/Jmvstream.php:72
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:69
+msgid "Unavailable"
+msgstr "Indisponível"
+
+#: src/includes/Jmvstream.php:73
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:70
+msgid " videos from Jmvstream"
+msgstr " vídeos da Jmvstream"
+
+#: src/includes/Jmvstream.php:74
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:72
+msgid "Video added to plugin"
+msgstr "Vídeo adicionado ao Plugin"
+
+#: src/includes/Jmvstream.php:75
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:71
+msgid "Video added"
+msgstr "Vídeo adicionado"
+
+#: src/includes/Jmvstream.php:76
+msgid "Add to Page"
+msgstr "Adicionar à Página"
+
+#: src/includes/Jmvstream.php:139
+msgid "Media Library"
+msgstr "Biblioteca de Mídia"
+
+#: src/includes/JmvstreamShortcode.php:67
+msgid "Video not found"
+msgstr "Vídeo não encontrado"
+
+#: src/includes/admin/JmvstreamApiSettings.php:58
+#: src/includes/admin/JmvstreamApiSettings.php:132
+msgid "Jmvstream Ondemand API settings"
+msgstr "Configurações da Jmvstream Ondemand API"
+
+#: src/includes/admin/JmvstreamApiSettings.php:133
+#: src/includes/admin/JmvstreamDashboardPage.php:15
+msgid "API settings"
+msgstr "Configurações da API"
+
+#: src/includes/admin/JmvstreamApiSettings.php:141
+#: src/includes/admin/JmvstreamApiSettings.php:142
+#: src/includes/admin/JmvstreamDashboardPage.php:29
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: src/includes/admin/JmvstreamApiSettings.php:180
+msgid ""
+"To use the plugin, you must fill in all the fields. For a step-by-step guide on how to "
+"fill in the fields"
+msgstr ""
+"Para usar o plugin, você deve preencher todos os campos. Para um passo a passo sobre "
+"como preencher os campos"
+
+#: src/includes/admin/JmvstreamApiSettings.php:182
+msgid "click here"
+msgstr "clique aqui"
+
+#: src/includes/admin/JmvstreamApiSettings.php:187
+msgid "Dismiss this notice."
+msgstr "Dispensar essa notificação."
+
+#: src/includes/admin/JmvstreamDashboardPage.php:10
+msgid "Jmvstream Plugin"
+msgstr "Plugin Jmvstream"
+
+#: src/includes/admin/JmvstreamDashboardPage.php:12
+msgid "Below are the steps to use the plugin:"
+msgstr "Segue abaixo os passos para que possa utilizar o plugin:"
+
+#: src/includes/admin/JmvstreamDashboardPage.php:13
+msgid ""
+"To use the plugin, you need to configure it with your "
+"Jmvstream Ondemand plan API data."
+msgstr ""
+"Para utilizar o plugin é necessário configura-lo com os dados da API de seu "
+"plano Jmvstream Ondemand."
+
+#: src/includes/admin/JmvstreamDashboardPage.php:15
+msgid "To configure the API, access the page"
+msgstr "Para configurar a API acesse a página"
+
+#: src/includes/admin/JmvstreamDashboardPage.php:16
+msgid "Fill in the fields with your account information."
+msgstr "Preencha os campos com as informações da sua conta."
+
+#: src/includes/admin/JmvstreamDashboardPage.php:17
+msgid "To get the <b>Resource</b> of your Ondemand plan, access your "
+msgstr "Para conseguir o <b>Resource</b> do seu plano Ondemand acesse seu "
+
+#: src/includes/admin/JmvstreamDashboardPage.php:18
+msgid ""
+"In your HUB, access your Ondemand plan and on the <b>Settings</b> page, "
+"you will find the <b>Resource</b>: "
+msgstr ""
+"Em seu HUB, acesse seu plano Ondemand e na página de <b>Configurações</b>, "
+"você irá encontrar o <b>Resource</b>: "
+
+#: src/includes/admin/JmvstreamDashboardPage.php:20
+msgid "Example: "
+msgstr "Exemplo: "
+
+#: src/includes/admin/JmvstreamDashboardPage.php:23
+msgid "After filling in the fields with this information. Click on <b>Save</b>."
+msgstr "Após preencher os campos aqui no plugin com suas informações. Clique em <b>Salvar</b>."
+
+#: src/includes/admin/JmvstreamDashboardPage.php:24
+msgid ""
+"On the <b>Hub Videos</b> page of the plugin, you will "
+"find the videos from your Ondemand plan."
+msgstr ""
+"Na página <b>Hub Videos</b> do plugin, você irá "
+"encontrar os vídeos do seu plano Ondemand."
+
+#: src/includes/admin/JmvstreamDashboardPage.php:25
+msgid ""
+"Click on <b>Add Video</b>, to add the video to your site, "
+"so that you can use it on your pages or posts."
+msgstr ""
+"Clique em <b>Adicionar Vídeo</b>, para adicionar o vídeo em seu site, "
+"para que possa utiliza-lo em suas páginas ou posts."
+
+#: src/includes/admin/JmvstreamDashboardPage.php:26
+msgid ""
+"To add the video to the page or post, simply copy the video <b>Shortcode</b> "
+"and paste it into the page or post, and the video player "
+"will be automatically added."
+msgstr ""
+"Para adicionar o vídeo à pági, basta copiar o <b>Shortcode</b> "
+"do vídeo e colar na página ou post, que o player do vídeo "
+"será automaticamente adicionado."
+
+#: src/includes/admin/JmvstreamDashboardPage.php:27
+msgid ""
+"With the Shortcode, it is also possible to set the height (height), width (width), and "
+"alignment (align) of the video. To set a default for your videos, go to "
+msgstr ""
+"Pelo Shortcode também é possível definir a altura(height), largura(width) e "
+"alinhamento(align) do vídeo. Para definir um padrão para seus vídeos, acesse "
+
+#: src/includes/admin/JmvstreamDashboardPage.php:28
+msgid ""
+"To add some video to the page or plugin, just copy the <b>Shortcode</b> of the video "
+"and paste it into the page or post, and the video player will be automatically "
+"inserted."
+msgstr ""
+"Para adicionar algum vídeo a página ou plugin, basta copiar o <b>Shortcode</b> do "
+"vídeo e colar na página ou post, que o player do vídeo será automaticamente adicionado."
+
+#: src/includes/admin/JmvstreamDashboardPage.php:29
+msgid ""
+"By Shortcode it is also possible to set the height, width and alignment of the video. "
+"To set a default for your videos, go to the "
+msgstr ""
+"Pelo Shortcode também é possível definir a altura(height), largura(width) e "
+"alinhamento(align) do vídeo. Para definir um padrão para seus vídeos, acesse "
+
+#: src/includes/admin/JmvstreamDashboardPage.php:30
+msgid ""
+"The plugin also has integration with the <b>Gutenberg</b> editor and the <b>Elementor</"
+"b> page builder. So you can add your videos directly through them."
+msgstr ""
+"O plugin também possui integração com o editor <b>Gutenberg</b> e com o page builder "
+"<b>Elementor</b>. Para que possa adicionar seus vídeos diretamente por eles."
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:42
+msgid "Default video settings"
+msgstr "Configurações padrões dos vídeos"
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:49
+msgid "Default width"
+msgstr "Width Padrão"
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:57
+msgid "Default height"
+msgstr "Height Padrão"
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:65
+msgid "Default align"
+msgstr "Alinhamento Padrão"
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:92
+msgid "Default videos width"
+msgstr "Largura padrão dos vídeos"
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:101
+msgid "Default videos height"
+msgstr "Altura padrão dos vídeos"
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:112
+#: src/includes/admin/JmvstreamGeneralSettings.php:116
+#: src/includes/admin/JmvstreamGeneralSettings.php:120
+#: src/includes/admin/JmvstreamGeneralSettings.php:124
+msgid "Center"
+msgstr "Centralizado"
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:113
+#: src/includes/admin/JmvstreamGeneralSettings.php:117
+#: src/includes/admin/JmvstreamGeneralSettings.php:121
+#: src/includes/admin/JmvstreamGeneralSettings.php:125
+msgid "Left"
+msgstr "Esquerda"
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:114
+#: src/includes/admin/JmvstreamGeneralSettings.php:118
+#: src/includes/admin/JmvstreamGeneralSettings.php:122
+#: src/includes/admin/JmvstreamGeneralSettings.php:126
+msgid "Right"
+msgstr "Direita"
+
+#: src/includes/admin/JmvstreamGeneralSettings.php:130
+msgid "Default video align"
+msgstr "Alinhamento padrão dos vídeos"
+
+#: src/includes/admin/JmvstreamHubVideosPage.php:18
+msgid "To use the plugin, you must first configure its API."
+msgstr "Para usar o plugin, deve configurar a API antes."
+
+#: src/includes/admin/JmvstreamHubVideosPage.php:18
+msgid "Click here to configure."
+msgstr "Clique aqui para configurar."
+
+#: src/includes/admin/JmvstreamHubVideosPage.php:20
+msgid "Dismiss notice"
+msgstr "Dispensar aviso"
+
+#: src/includes/admin/JmvstreamHubVideosPage.php:34
+msgid "Filter by gallery"
+msgstr "Filtrar por galeria"
+
+#: src/includes/admin/JmvstreamHubVideosPage.php:48
+msgid "Duration"
+msgstr "Duração"
+
+#: src/includes/admin/JmvstreamHubVideosPage.php:57
+msgid "Action"
+msgstr "Ação"
+
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:73
+msgid "Add to page"
+msgstr "Adicionar à página"
+
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:97
+#: src/includes/elementor/controls/JmvstreamVideoControl.php:98
+msgid "Select the video"
+msgstr "Selecione o vídeo"
+
+#: src/includes/elementor/widgets/JmvstreamVideoWidget.php:12
+msgid "Jmvstream Video"
+msgstr "Jmvstream Vídeo"
+
+#: src/includes/elementor/widgets/JmvstreamVideoWidget.php:55
+msgid "Put the shortcode of your video"
+msgstr "Coloque o shortcode de seu vídeo aqui"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Jmvstream"
+msgstr "Jmvstream"
+
+#. Description of the plugin/theme
+msgid ""
+"Manage, edit and add videos from the Jmvstream Ondemand Plan to your content using "
+"Wordpress"
+msgstr ""
+"Gerencie, edite e adicione os videos do Plano Jmvstream Ondemand em seu conteúdo pelo "
+"Wordpress"
+
+#. Author URI of the plugin/theme
+msgid "https://www.jmvstream.com"
+msgstr ""
+
+#~ msgid "Videos Updated"
+#~ msgstr "Vídeos Atualizados"
+
+#~ msgid "Videos"
+#~ msgstr "Vídeos"
+
+#~ msgid "Plugin Version: "
+#~ msgstr "Versão do Plugin "
+
+#~ msgid "Add videos"
+#~ msgstr "Adicionar Vídeos"
+
+#~ msgid "Update videos"
+#~ msgstr "Atualizar Vídeos"
+
+#~ msgid "Filter by date"
+#~ msgstr "Filtrar por data"
+
+#, fuzzy
+#~| msgid "Jmvstream Videos"
+#~ msgid "Jmvstream videos"
+#~ msgstr "Jmvstream Vídeos"

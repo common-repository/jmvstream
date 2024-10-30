@@ -1,0 +1,241 @@
+/* LIST VIDEOS */
+
+#jmvstream__wrap {
+  margin: 1%;
+}
+
+#jmvstream__wrap table {
+  table-layout: fixed;
+}
+
+.jmvstream__col-title {
+  width: 35%;
+}
+
+.jmvstream__list-row {
+  height: 70px;
+}
+
+.jmvstream__column-video {
+  width: 35%;
+}
+.jmvstream__column-shortcode {
+  width: 30%;
+}
+
+.jmvstream__column-date,
+.jmvstream__column-duration{
+  width: 10%;
+}
+
+.jmvstream__column-action {
+  text-align: center !important;
+}
+
+#jmvstream__wrap table p {
+  margin-bottom: 0 !important;
+}
+
+.jmvstream__video-title {
+  max-width: 70ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+}
+
+.jmvstream__video-description {
+  max-width: 70ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jmvstream__the-list .column-parent p {
+  margin-bottom: 0;
+}
+
+.jmvstream__the-list .jmvstream__column-parent {
+  vertical-align: middle;
+}
+
+.jmvstream__col-header a {
+  display: block;
+  overflow: hidden;
+  padding: 8px;
+  color: #2271b1;
+  font-size: 16px;
+  text-align: left;
+}
+
+.jmvstream__video-title-list {
+  cursor: pointer;
+  padding-left: 1%;
+  margin-bottom: 2%;
+  text-decoration: none;
+  color: #2271b1;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.jmvstream__video-title-list:hover {
+  color: #135e96;
+}
+
+.jmvstream__col-with-copy {
+  display: flex;
+  max-width: 55ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.jmvstream__copy-icon {
+  margin-right: 10px;
+  cursor: pointer;
+  min-width: 18px;
+  min-height: 18px;
+}
+
+.jmvstream__button {
+  margin-left: 4px;
+  padding: 4px 8px;
+  position: relative;
+  top: -3px;
+  text-decoration: none;
+  border: 1px solid #2271b1;
+  border-radius: 2px;
+  text-shadow: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: normal;
+  color: #2271b1;
+  background: #f6f7f7;
+  cursor: pointer;
+}
+
+.jmvstream__button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.jmvstream__video-added-button{
+  border: 1px solid #22b13c;
+  color: #22b13c;
+  cursor: not-allowed;
+}
+
+.jmvstream__add-video-to-page-button-disabled {
+  border: 1px solid #b4b3b3;
+  color: #b4b3b3;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.jmvstream__add-video-icon {
+  margin-right: 10px;
+  cursor: pointer;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.jmvstream__video-added-icon {
+  margin-right: 10px;
+  cursor: pointer;
+  min-width: 20px;
+  min-height: 20px;
+  color: #4ad84c;
+}
+
+.jmvstream__thumbnail {
+  cursor: pointer;
+  position: relative;
+}
+
+.jmvstream__thumbnail img {
+  display: block;
+  width: 124px;
+  height: 70px;
+}
+
+.jmvstream__video-info {
+  margin-left: 1%;
+}
+
+.jmvstream__tablenav-pages {
+  display: flex;
+  justify-content: space-between;
+}
+
+#jmvstream__table-paging {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.jmvstream__pagination {
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* SEARCH/FILTER BAR */
+.jmvstream__filter-container {
+  width: 250px;
+  margin: 1%;
+  float: left;
+}
+
+.jmvstream__filter-container .jmvstream__filter-item {
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jmvstream__search-form {
+  float: right;
+  margin: 1%;
+}
+
+#jmvstream__filter-by-gallery {
+  margin-top: 0;
+  margin-right: 2%;
+  width: 42%;
+  width: calc(48% - 12px);
+}
+
+#jmvstream__filter-by-gallery:last-of-type {
+  margin-right: 0;
+  width: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 990px) {
+  .jmvstream__column-video,
+  .jmvstream__column-shortcode,
+  .jmvstream__column-duration {
+    width: 40%;
+  }
+  
+  .jmvstream__column-date,
+  .jmvstream__column-duration{
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .jmvstream__column-video,
+  .jmvstream__column-shortcode,
+  .jmvstream__column-duration {
+    width: 80%;
+  }
+  
+  .jmvstream__column-date,
+  .jmvstream__column-duration,
+  .jmvstream__column-shortcode,
+  .jmvstream__column-duration{
+    display: none;
+  }
+}

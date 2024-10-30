@@ -1,0 +1,117 @@
+#jmvstream__preview-modal-backdrop {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 165000;
+  }
+  
+  #jmvstream__preview-modal-player {
+    margin: 5vh auto;
+    z-index: 170000;
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 720px;
+    max-width: 1280px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #jmvstream__preview-modal-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .jmvstream__frame-player{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .jmvstream__frame-player iframe{
+    width: calc(100% + 33vw);
+    height: 60vh;
+  }
+  
+  .jmvstream__preview-player-title {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    padding: 0 16px;
+    font-size: 25px;
+    line-height: 2;
+    margin: 0;
+    color: white;
+    display: block;
+    font-weight: 600;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  .jmvstream__close-modal-icon {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    float: right;
+  }
+  
+  #jmvstream__background-hover-preview{
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  #jmvstream__background-hover-preview svg{
+    background: transparent;
+    border: none;
+  }
+
+  .jmvstream__thumbnail:hover .jmvstream__preview-overlay {
+    opacity: 1;
+  }
+  
+  .jmvstream__preview-overlay{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgba(0, 0, 0, 0.709);
+  }
+  
+  .jmvstream__preview-icon{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+@media (max-width: 768px) {
+  .jmvstream__frame-player iframe{
+   height: 37vh;
+   width: calc(100% + 35vw);
+  }
+}
+
+@media (max-width: 480px) {
+  .jmvstream__frame-player iframe{
+   height: 28vh;
+   width: calc(100% + 25vw);
+  }
+}
